@@ -1,0 +1,54 @@
+.gridbox {
+    font-size: x-large;
+    color: whitesmoke;
+    margin-right: 5px;
+}
+
+
+
+.grid-item {
+    margin: auto;
+    background-color: whitesmoke;
+    padding-bottom: 15px;
+}
+
+
+.grid-item img {
+    width: 100%;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 16px;
+    margin: auto;
+    max-width: 1220px;
+    margin-top: 10px;
+}
+
+
+
+.card-item-title {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-subtitle {
+    color: gray;
+    font-weight: 300;
+}
+
+.card-description {
+    font-size: larger;
+}
+
+.card-btn {
+    font-size: 16px;
+    margin: 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 16px;
+    font-weight: 600;
+    border: 0;
+}
